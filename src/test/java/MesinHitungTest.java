@@ -1,5 +1,6 @@
-package org.example;
 
+import org.example.Mesin_Hitung;
+import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
