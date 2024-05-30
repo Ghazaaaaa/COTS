@@ -6,7 +6,7 @@ public class Mesin_Hitung {
         boolean exit = false;
 
         while (!exit) {
-            System.out.println("==== Mesin Hitung ====");
+            System.out.println("==== Mesin Hitung =====");
             System.out.println("1. Penjumlahan");
             System.out.println("2. Pengurangan");
             System.out.println("3. Perkalian");
