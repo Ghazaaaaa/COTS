@@ -24,13 +24,14 @@
     </dependencies>
 
     <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <url>https://maven.pkg.github.com/Ghazaaaaa/COTS</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <url>https://maven.pkg.github.com/Ghazaaaaa/COTS</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/Ghazaaaaa/COTS</url>
+    </repository>
+    <snapshotRepository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/Ghazaaaaa/COTS</url>
+    </snapshotRepository>
+</distributionManagement>
+
 </project>
