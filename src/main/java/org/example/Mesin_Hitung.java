@@ -80,11 +80,4 @@ public class Mesin_Hitung {
         }
         return a / b;
     }
-
-    public static double pembagian(double a, double b) {
-        if (b == 0) {
-            throw new ArithmeticException("Pembagian dengan nol tidak diperbolehkan.");
-        }
-        return a / b;
-    }
 }
